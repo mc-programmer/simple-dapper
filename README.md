@@ -1,4 +1,4 @@
-# .NET SIMPLE DAPPER
+# .NET SIMPLE DAPPER (in progress)
 This document serves as a guide for building a simple crud using ASP.NET Core 9 (mvc), ASP.NET Core 9(web api), console app and xUnit.
 
 > [!TIP]
