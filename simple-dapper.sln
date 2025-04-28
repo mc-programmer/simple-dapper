@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{CFC6780D-566D-44A4-BA3E-58549A2155B0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2D5B2373-A5DC-45C2-BA51-C033DF1FBA95}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50B3EC54-3854-4D47-8CE9-B3C5692DAF52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FC2CD6BF-AAAD-4D04-A43A-C751601EB616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-dapper.domain", "simple-dapper.Domain\simple-dapper.domain.csproj", "{7FC36F8F-32E1-40DC-B952-8CEFFD7B345F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-dapper.infrastructure", "simple-dapper.infrastructure\simple-dapper.infrastructure.csproj", "{A1E0589B-9AFF-42FC-82E0-D892E09C60DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-dapper.application", "simple-dapper.application\simple-dapper.application.csproj", "{105C0AD1-0CBB-470C-9115-AA751F7250CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-dapper.api", "simple-dapper.api\simple-dapper.api.csproj", "{BCC3D574-2958-4119-ADF9-179F71CCE5AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-dapper.UnitTests", "simple-dapper.UnitTests\simple-dapper.UnitTests.csproj", "{1F6B72B8-4E12-4F6F-9BA7-2154B7E53440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-dapper.IntegrationTests", "simple-dapper.IntegrationTests\simple-dapper.IntegrationTests.csproj", "{4B6A9E6D-E622-4288-A61E-FF8921ED441F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-dapper.FunctionalTests", "simple-dapper.FunctionalTests\simple-dapper.FunctionalTests.csproj", "{3552AE84-E19F-422A-8335-73C70E051A70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FC36F8F-32E1-40DC-B952-8CEFFD7B345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC36F8F-32E1-40DC-B952-8CEFFD7B345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC36F8F-32E1-40DC-B952-8CEFFD7B345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC36F8F-32E1-40DC-B952-8CEFFD7B345F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E0589B-9AFF-42FC-82E0-D892E09C60DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E0589B-9AFF-42FC-82E0-D892E09C60DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E0589B-9AFF-42FC-82E0-D892E09C60DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E0589B-9AFF-42FC-82E0-D892E09C60DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105C0AD1-0CBB-470C-9115-AA751F7250CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105C0AD1-0CBB-470C-9115-AA751F7250CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105C0AD1-0CBB-470C-9115-AA751F7250CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105C0AD1-0CBB-470C-9115-AA751F7250CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC3D574-2958-4119-ADF9-179F71CCE5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC3D574-2958-4119-ADF9-179F71CCE5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC3D574-2958-4119-ADF9-179F71CCE5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC3D574-2958-4119-ADF9-179F71CCE5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6B72B8-4E12-4F6F-9BA7-2154B7E53440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6B72B8-4E12-4F6F-9BA7-2154B7E53440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6B72B8-4E12-4F6F-9BA7-2154B7E53440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6B72B8-4E12-4F6F-9BA7-2154B7E53440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6A9E6D-E622-4288-A61E-FF8921ED441F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6A9E6D-E622-4288-A61E-FF8921ED441F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6A9E6D-E622-4288-A61E-FF8921ED441F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6A9E6D-E622-4288-A61E-FF8921ED441F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3552AE84-E19F-422A-8335-73C70E051A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3552AE84-E19F-422A-8335-73C70E051A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3552AE84-E19F-422A-8335-73C70E051A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3552AE84-E19F-422A-8335-73C70E051A70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FC36F8F-32E1-40DC-B952-8CEFFD7B345F} = {50B3EC54-3854-4D47-8CE9-B3C5692DAF52}
+		{A1E0589B-9AFF-42FC-82E0-D892E09C60DD} = {50B3EC54-3854-4D47-8CE9-B3C5692DAF52}
+		{105C0AD1-0CBB-470C-9115-AA751F7250CF} = {50B3EC54-3854-4D47-8CE9-B3C5692DAF52}
+		{BCC3D574-2958-4119-ADF9-179F71CCE5AC} = {50B3EC54-3854-4D47-8CE9-B3C5692DAF52}
+		{1F6B72B8-4E12-4F6F-9BA7-2154B7E53440} = {FC2CD6BF-AAAD-4D04-A43A-C751601EB616}
+		{4B6A9E6D-E622-4288-A61E-FF8921ED441F} = {FC2CD6BF-AAAD-4D04-A43A-C751601EB616}
+		{3552AE84-E19F-422A-8335-73C70E051A70} = {FC2CD6BF-AAAD-4D04-A43A-C751601EB616}
+	EndGlobalSection
+EndGlobal

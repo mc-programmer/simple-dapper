@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/simple-dapper.UnitTests/obj
+/.vs
+/simple-dapper.api/obj
+/simple-dapper.application/obj
+/simple-dapper.domain/obj
+/simple-dapper.FunctionalTests/obj
+/simple-dapper.infrastructure/obj
+/simple-dapper.IntegrationTests/obj
+/simple-dapper.api/bin/Debug/net9.0
+/simple-dapper.application/bin/Debug/net9.0
+/simple-dapper.domain/bin/Debug/net9.0
+/simple-dapper.FunctionalTests/bin/Debug/net9.0
+/simple-dapper.infrastructure/bin/Debug/net9.0
+/simple-dapper.IntegrationTests/bin/Debug/net9.0
+/simple-dapper.UnitTests/bin/Debug/net9.0
