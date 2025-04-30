@@ -4,6 +4,9 @@ namespace simple_dapper.application.Services.Interfaces;
 
 public interface INoteService
 {
-    bool Create(Note note);
+    void Create(Note note);
+    void Update(Note note);
+    IEnumerable<Note> GetAll();
+    void Delete(int id);
     Note? GetById(int id);
 }

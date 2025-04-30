@@ -2,7 +2,15 @@
 This document serves as a guide for building a simple crud using ASP.NET Core 9 (mvc), ASP.NET Core 9(web api), console app and xUnit.
 
 > [!TIP]
-> This project also implements generic repository!
+> This is a simple project thid dapper micro orm
+
+## Get started!
+```
+Add-Migration init
+```
+
+simply add migration to infrastructure layer and create your database
+and start using dapper as repository!
 
 ## Give a Star! ⭐
 If you find this `simple-dapper` valuable, show your support by giving this repository a star!

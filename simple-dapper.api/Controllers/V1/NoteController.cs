@@ -1,6 +1,7 @@
 ﻿using Asp.Versioning;
 using Microsoft.AspNetCore.Mvc;
 using simple_dapper.application.Services.Interfaces;
+using simple_dapper.domain.Models.Note;
 
 namespace simple_dapper.api.Controllers.V1;
 
@@ -12,7 +13,7 @@ public class NoteController(INoteService noteService) : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok();
+        return Ok(noteService.GetAll());
     }
 
     [HttpGet("{id}")]
@@ -26,8 +27,32 @@ public class NoteController(INoteService noteService) : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post(object note) => Created();
+    public IActionResult Post([FromBody] Note note)
+    {
+        if (!ModelState.IsValid) return BadRequest("please enter valid data");
+
+        noteService.Create(note);
+
+        return Created();
+    }
+
+    [HttpPut]
+    public IActionResult Put([FromBody] Note note)
+    {
+        if (!ModelState.IsValid) return BadRequest("please enter valid data");
+
+        noteService.Update(note);
+
+        return Ok();
+    }
 
     [HttpDelete("{id}")]
-    public IActionResult Delete(int id) => Ok();
+    public IActionResult Delete(int id)
+    {
+        if (id <= 0) return BadRequest("please enter a valid id");
+
+        noteService.Delete(id);
+
+        return Ok();
+    }
 }
