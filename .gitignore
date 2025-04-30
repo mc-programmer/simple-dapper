@@ -17,3 +17,6 @@
 /simple-dapper.infrastructure/bin/Debug/net9.0
 /simple-dapper.IntegrationTests/bin/Debug/net9.0
 /simple-dapper.UnitTests/bin/Debug/net9.0
+/simple-dapper.infrastructure/Migrations
+/simple-dapper.infrastructure.dapper/bin/Debug/net9.0
+/simple-dapper.infrastructure.dapper/obj

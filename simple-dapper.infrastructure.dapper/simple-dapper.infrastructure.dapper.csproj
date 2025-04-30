@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>simple_dapper.application</RootNamespace>
+    <RootNamespace>simple_dapper.infrastructure.dapper</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -11,4 +11,9 @@
     <ProjectReference Include="..\simple-dapper.Domain\simple-dapper.domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" />
+    <PackageReference Include="System.Data.SqlClient" />
+  </ItemGroup>
+  
 </Project>
